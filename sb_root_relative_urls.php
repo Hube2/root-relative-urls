@@ -8,7 +8,7 @@ between staging and production host environments without requiring hackish conte
 spoofing strategies.
 Author: Marcus E. Pope, marcuspope
 Author URI: http://www.marcuspope.com
-Version: 200.0.0
+Version: 3.0.0
 
 Copyright 2011 Marcus E. Pope (email : me@marcuspope.com)
 

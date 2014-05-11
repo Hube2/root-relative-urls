@@ -3,7 +3,7 @@ Contributors: marcuspope
 Donate link: http://www.marcuspope.com/
 Tags: url, links, admin, multisite, content, permalinks, migration, absolute urls
 Requires at least: 3.2.1
-Tested up to: 3.5.1
+Tested up to: 3.9.1
 Stable tag: trunk
 
 Converts all URLs to root-relative URLs for hosting the same site on multiple IPs, easier production migration and better mobile device testing.
