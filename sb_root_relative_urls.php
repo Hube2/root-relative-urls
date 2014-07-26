@@ -119,9 +119,9 @@ class MP_WP_Root_Relative_URLS {
         //This method is used for urls that can be acceptably reformatted into root-relative urls without causing issues
         //related to other deficiencies in the wp core.
 				
-				$blacklist_urls = split("\n", get_option('emc2_blacklist_urls'));
+				$blacklist_urls = explode("\n", get_option('emc2_blacklist_urls'));
 				foreach ($blacklist_urls as $x) {
-						if (stripos($url, $x) !== false) {
+						if (stripos($url, trim($x)) !== false) {
 								self::$massage = true;
 								return $url;
 						}
